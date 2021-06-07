@@ -1,0 +1,52 @@
+.array-bar {
+  width: 0.7%;
+  background-color: crimson;
+  display: inline-block;
+  margin: 0 1px;
+  border-radius: 25px;
+  transition: height 300ms ease-in-out;
+  border: none;
+}
+
+.array-container {
+  position: absolute;
+  left: 2px;
+  right: 2px;
+  bottom: 20%;
+}
+
+.audio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  cursor: pointer;
+  margin: 5px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: steelblue;
+  color: white;
+  transition: all 500ms ease-in-out;
+  font-weight: lighter;
+}
+
+button.disabled {
+  background-color: grey;
+  cursor: auto;
+}
+
+button:hover {
+  filter: contrast(2);
+}
+
+div.type {
+  margin-top: 4%;
+}
+
+img.btn {
+  margin: 10px;
+  cursor: pointer;
+}
