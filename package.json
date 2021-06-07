@@ -1,11 +1,13 @@
 {
-  "name": "react",
-  "homepage": "https://r0hnx.github.io/starter-project/",
+  "name": "sorting-algorithm-visualizer",
+  "homepage": "https://r0hnx.github.io/sorting_algorithm_visualizer/",
   "version": "1.0.0",
-  "description": "React example starter project",
+  "description": "React project to visualize sorting algorithms",
   "keywords": [
     "react",
-    "starter"
+    "algorithm",
+    "sorting",
+    "visualizer"
   ],
   "main": "src/index.js",
   "dependencies": {
